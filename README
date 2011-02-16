@@ -1,0 +1,73 @@
+NAME
+    RDF::vCard::Babelfish - convert between myriad contact formats
+
+SYNOPSIS
+      use RDF::vCard::Babelfish;
+      my $babelfish = RDF::vCard::Babelfish->new('HCARD' => 'VCARDXML');
+      print $babelfish->convert($input_string);
+
+QUOTES
+    "And the Lord descended, and we descended with him to see the city and
+    the tower which the children of men had built. And he confounded their
+    language, and they no longer understood one another's speech, and they
+    ceased then to build the city and the tower." *Jubilees 10:23-24*
+
+    "The practical upshot of all this is that if you stick a Babel fish in
+    your ear you can instantly understand anything in any form of language."
+    *Hitchhikers 6*
+
+    "Now it is such a bizarrely improbable coincidence that anything so
+    mindboggingly useful could have evolved purely by chance that some
+    thinkers have chosen to see it as the final and clinching proof of the
+    non-existence of God." *Hitchhikers 6*
+
+DESCRIPTION
+    This is a sort of supplementary module to go with RDF::vCard. It adds
+    some cool functionality at the cost of a few additional dependencies.
+    It's a simple way to convert between the following formats:
+
+      HCARD         input only
+      JCARD         output only
+      NTRIPLES
+      RDFA
+      RDFJSON
+      RDFXML
+      TURTLE
+      VCARD3
+      VCARD4
+      VCARDXML      output only
+
+    For the RDF-based formats, the W3C vCard vocabulary, as described in
+    RDF::vCard::Exporter is expected.
+
+    Some conversions are slightly lossy, but overall, even when chaining
+    several conversions together, results are fairly good.
+
+TODO
+    Nice to have: jCard and vCardXML input; Portable Contacts.
+
+SEE ALSO
+    hCard: HTML::Microformats::Format::hCard,
+    <http://microformats.org/wiki/hcard>.
+
+    jCard: <http://microformats.org/wiki/jCard>.
+
+    N-Triples, RDF/JSON, RDF/XML, Turtle: RDF::Trine.
+
+    RDFa: RDF::RDFa::Parser, RDF::RDFa::Generator,
+    <http://www.w3.org/Submission/vcard-rdf/>.
+
+    vCard 3, vCard 4, vCard XML: RDF::vCard,
+    <http://www.ietf.org/rfc/rfc2445.txt>.
+
+    <http://www.perlrdf.org/>.
+
+AUTHOR
+    Toby Inkster <tobyink@cpan.org>.
+
+COPYRIGHT
+    Copyright 2011 Toby Inkster
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

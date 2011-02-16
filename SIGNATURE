@@ -1,0 +1,48 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 9cef3570ae1c46189398af645bc0aba1062d2ad6 Changes
+SHA1 184912da257a03068a458eb74411b56aa04089ea Changes.ttl
+SHA1 492b6a8e96407f65aa68c569b06898f305c9bbcc Changes.xml
+SHA1 c8aeef3df9f00608ec426690751c9c8313017179 MANIFEST
+SHA1 f5e0e1a1bb5bd5e30043a2123bf757fa648bedf8 MANIFEST.SKIP
+SHA1 3a78c9670cddcddec941ba1112fde690cfb67b86 META.yml
+SHA1 f98d408195738e9866f4b4b2649b9ab249d04f4c Makefile.PL
+SHA1 f3116a5d5ebbab5821821462aea03889e8ccde66 README
+SHA1 20c73697e1713638140c719d8eaa19a275ed43a5 inc/Module/AutoInstall.pm
+SHA1 7305dbe2904416e28decb05396988a5d51d578be inc/Module/Install.pm
+SHA1 ca13d9875e1249f6e84f7070be8152c34837955e inc/Module/Install/AutoInstall.pm
+SHA1 129960509127732258570c122042bc48615222e1 inc/Module/Install/Base.pm
+SHA1 cf3356ed9a5bd2f732527ef9e7bc5ef4458c8a93 inc/Module/Install/Can.pm
+SHA1 de189984fc99741cc060d1964f513e45bf6d5c74 inc/Module/Install/DOAPChangeSets.pm
+SHA1 bf0a3e1977effc2832d7a813a76dce3f31b437b6 inc/Module/Install/Fetch.pm
+SHA1 b501b0df59a5cd235cca473889f82c3d3429f39e inc/Module/Install/Include.pm
+SHA1 b721c93ca5bc9a6aa863b49af15f1b1de6125935 inc/Module/Install/Makefile.pm
+SHA1 026cc0551a0ad399d195e395b46bdf842e115192 inc/Module/Install/Metadata.pm
+SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.pm
+SHA1 5457015ea5a50e93465bf2dafa29feebd547f85b inc/Module/Install/Win32.pm
+SHA1 051e7fa8063908befa3440508d0584a2497b97db inc/Module/Install/WriteAll.pm
+SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
+SHA1 6830c76c5b8e2c578ea4d7a19b7c202b09d2bf92 lib/RDF/vCard/Babelfish.pm
+SHA1 dca2c83fbf0687af75b9a5b88f1eb4fac46e1b50 t/00sig.t
+SHA1 00fbb8a4ed1804201d33ac4e8da6f1c4e8197d39 t/01basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAk1cWvIACgkQzr+BKGoqfTlVlgCePIfzczkNBmc1rd5ysEf/dJM9
+dBAAn3dPAB4UKgLVBPpjdrlWIWm3viIl
+=xb5+
+-----END PGP SIGNATURE-----
